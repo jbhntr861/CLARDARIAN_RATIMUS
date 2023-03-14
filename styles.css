@@ -1,0 +1,35 @@
+/* Style sheet for the Remote Access Tool and Keylogger windows */
+
+/* Set the background color to black */
+QWidget {
+background-color: #000000;
+}
+
+/* Set the button color to red and font color to white */
+QPushButton {
+background-color: #FF0000;
+color: #FFFFFF;
+}
+
+/* Set the button size */
+QPushButton {
+width: 120px;
+height: 50px;
+}
+
+/* Set the title label font color to white */
+QLabel {
+color: #FFFFFF;
+}
+
+/* Set the text box color to gray and font color to white */
+QTextEdit {
+background-color: #333333;
+color: #FFFFFF;
+}
+
+/* Set the start and stop buttons to be the same size as the other buttons */
+QPushButton#start_button, QPushButton#stop_button {
+width: 120px;
+height: 50px;
+}
